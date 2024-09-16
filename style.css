@@ -1,0 +1,14 @@
+body{
+    background-color: #121619;
+}
+
+#header{
+    padding: 20px 5vw;
+    color: #E5C687;
+    background-color: #2D4739;
+    text-align: left;
+    border-width: 20px;
+    border: #BCB382;
+    width: 100vw;
+    
+}
