@@ -4,11 +4,25 @@ body{
 
 #header{
     padding: 20px 5vw;
-    color: #E5C687;
-    background-color: #2D4739;
+    color: #2D4739;
+    background-color: #E5C687;
     text-align: left;
     border-width: 20px;
     border: #BCB382;
     width: 100vw;
-    
 }
+
+.box{
+    color:#6DB1BF ;
+}
+
+.flexbox{
+    color: #301A4B;
+    background-color: #6DB1BF;
+    padding: 10vw 10vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: #FFEAEC;
+    border-radius: 2vw;
+}
+#FFEAEC
