@@ -9,14 +9,14 @@ body{
     text-align: left;
     border-width: 20px;
     border: #BCB382;
-    width: 100vw;
+    width: 80vw;
 }
 
-.box{
+.bluetext{
     color:#6DB1BF ;
 }
 
-.flexbox{
+.card{
     color: #301A4B;
     background-color: #6DB1BF;
     padding: 10vw 10vw;
@@ -24,5 +24,12 @@ body{
     border-width: 0.5vw;
     border-color: #FFEAEC;
     border-radius: 2vw;
+    box-sizing: border-box;
 }
-#FFEAEC
+
+.array{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#301A4B
