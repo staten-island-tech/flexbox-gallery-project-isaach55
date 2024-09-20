@@ -12,24 +12,29 @@ body{
     width: 80vw;
 }
 
-.bluetext{
+#bluetext{
     color:#6DB1BF ;
+}
+#cool{
+    color: #26C485;
 }
 
 .card{
     color: #301A4B;
     background-color: #6DB1BF;
-    padding: 10vw 10vw;
+    padding: 12vw 10vw;
     border-style: solid;
     border-width: 0.5vw;
     border-color: #FFEAEC;
     border-radius: 2vw;
     box-sizing: border-box;
+	box-shadow: 0.5vw 0.5vw 9px 0px #E5C687;
 }
 
 .array{
     align-items: center;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 #301A4B
