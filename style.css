@@ -22,7 +22,7 @@ body{
 .card{
     color: #301A4B;
     background-color: #6DB1BF;
-    padding: 12vw 10vw;
+    padding: 8vw 6vw;
     border-style: solid;
     border-width: 0.5vw;
     border-color: #FFEAEC;
@@ -38,3 +38,5 @@ body{
     flex-wrap: wrap;
 }
 #301A4B
+
+card=    padding: 12vw 10vw;
