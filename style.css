@@ -3,24 +3,30 @@ body{
 }
 
 #header{
-    padding: 20px 5vw;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    margin-left: -1.5vw;
     color: #2D4739;
     background-color: #E5C687;
     text-align: left;
     border-width: 20px;
     border: #BCB382;
-    width: 80vw;
+    width: 100vw;
 }
 
-#bluetext{
-    color:#6DB1BF ;
-}
-#cool{
-    color: #26C485;
+.container{
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2vw;
+    text-align: center;
 }
 
 .card{
     width: 22%;
+    height: 30vh;
     color: #301A4B;
     background-color: #6DB1BF;
     padding: 2vw 2vw;
@@ -30,14 +36,12 @@ body{
     border-radius: 2vw;
     box-sizing: border-box;
 	box-shadow: 0.5vw 0.5vw 9px 0px #E5C687;
+    margin-bottom: 3vh;
 }
 
-.array{
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.card img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
 }
-#301A4B
 
-card=    padding: 12vw 10vw;
