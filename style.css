@@ -11,7 +11,8 @@ body {
     text-align: left;
     border-width: 20px;
     border: #BCB382;
-    width: 97vw;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 .container {
@@ -36,13 +37,21 @@ body {
     border-radius: 2vw;
     box-sizing: border-box;
 	box-shadow: 0.5vw 0.5vw 9px 0px #E5C687;
-    margin-bottom: 3vh;
+    margin-bottom: 2vmin;
+    font-size: 2.5vmin;
+    overflow: hidden;
 }
 
 .card img {
     height: 80%;
     width: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        font-size: 2vmin;
+    }
 }
 
 .spin:hover {
