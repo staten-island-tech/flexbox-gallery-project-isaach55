@@ -1,8 +1,8 @@
-body{
+body {
     background-color: #121619;
 }
 
-#header{
+#header {
     font-family: "Poppins", sans-serif;
     padding: 20px;
     margin-left: -1.5vw;
@@ -14,7 +14,7 @@ body{
     width: 97vw;
 }
 
-.container{
+.container {
     font-family: "Poppins", sans-serif;
     align-items: center;
     display: flex;
@@ -24,7 +24,7 @@ body{
     text-align: center;
 }
 
-.card{
+.card {
     width: 22%;
     height: 30vh;
     color: #301A4B;
@@ -64,4 +64,38 @@ body{
     100% {
         transform: scale(1.2) rotate(360deg);
     }
+}
+
+.border_change:hover {
+    transform: scale(1.1);
+    border-color: #E5C687;
+    box-shadow: none;
+}
+
+.flip-y {
+    transition: transform 1s ease-in-out;
+}
+.flip-y:hover {
+    transform: rotateY(360deg);
+}
+
+.flip-x{
+    transition: transform 2.5s ease-in-out;
+}
+.flip-x:hover {
+    transform: rotateX(180deg);
+}
+
+.border_expand {
+    transition: border-width 0.5s ease-in-out;
+}
+.border_expand:hover {
+    border-width: 0px;
+}
+
+.yellow {
+    transition: background-color 2s ease-in-out;
+}
+.yellow:hover {
+    background-color: #E5C687;
 }
